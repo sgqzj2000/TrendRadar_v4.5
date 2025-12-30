@@ -96,16 +96,36 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    - id: "hacker-news"
-      name: "Hacker News"
-      url: "https://hnrss.org/frontpage"
-      # max_age_days: 1               # 示例：只推送1天内的文章
+    - id: "sspai"
+      name: "少数派"
+      url: "https://sspai.com/feed"
+      max_age_days: 1               # 示例：只推送1天内的文章
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
-      # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
+      max_age_days: 1               # 示例：推送7天内的文章（更新较慢的博客）
 
+    - id: "zhihu"
+      name: "知乎每日精选"
+      url: "https://www.zhihu.com/rss"
+      max_age_days: 1               # 示例：推送7天内的文章（更新较慢的博客）
+
+    - id: "zaobao-cn"
+      name: "联合早报"
+      url: "https://plink.anyfeeder.com/zaobao/realtime/china"
+      max_age_days: 1               # 示例：推送7天内的文章（更新较慢的博客）
+
+    - id: "ckxxwx"
+      name: "参考消息"
+      url: "https://plink.anyfeeder.com/weixin/ckxxwx"
+      max_age_days: 1               # 示例：推送7天内的文章（更新较慢的博客）
+
+    - id: "byt"
+      name: "半月谈"
+      url: "https://plink.anyfeeder.com/weixin/banyuetan-weixin"
+      max_age_days: 1               # 示例：推送7天内的文章（更新较慢的博客）
+      
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
