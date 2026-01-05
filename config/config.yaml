@@ -121,10 +121,11 @@ rss:
       url: "https://plink.anyfeeder.com/weixin/ckxxwx"
       max_age_days: 1               # 示例：推送7天内的文章（更新较慢的博客）
 
-    - id: "byt"
-      name: "半月谈"
-      url: "https://plink.anyfeeder.com/weixin/banyuetan-weixin"
-      max_age_days: 1               # 示例：推送7天内的文章（更新较慢的博客）
+    #- id: "byt"
+    #  name: "半月谈"
+    #  url: "https://plink.anyfeeder.com/weixin/banyuetan-weixin"
+    #  max_age_days: 1               
+    # 示例：推送7天内的文章（更新较慢的博客）
       
     # 自定义源示例
     # - id: "custom-feed"
