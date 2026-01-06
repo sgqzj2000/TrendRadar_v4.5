@@ -27,8 +27,10 @@ platforms:
   # === 综合新闻媒体类 ===
   - id: "toutiao"
     name: "今日头条"
-  - id: "baidu"
-    name: "百度热搜"
+  - id: "tencent-hot"
+    name: "腾讯新闻 综合早报"
+  #- id: "baidu"
+  #  name: "百度热搜"
   - id: "thepaper"
     name: "澎湃新闻"
   - id: "ifeng"
@@ -62,7 +64,27 @@ platforms:
     name: "财联社 电报"
   - id: "cls-depth"
     name: "财联社 深度"
-
+  # === 科技类平台 ===
+  #- id: "ithome"
+  #  name: "IT之家"
+  #- id: "juejin"
+  #  name: "掘金"
+  - id: "github"
+    name: "GitHub"
+  - id: "hackernews"
+    name: "Hacker News"
+  #- id: "solidot"
+  #  name: "Solidot"
+  #- id: "v2ex"
+  #  name: "V2EX"
+  #- id: "nowcoder"
+  #  name: "牛客网"
+  #- id: "pcbeta"
+  #  name: "远景论坛"
+  - id: "sspai"
+    name: "少数派"
+  #- id: "producthunt"
+  #  name: "ProductHunt"
 
 # ===============================================================
 # 3. 数据源 - RSS 订阅
